@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7cd6130d7a87ec2d81d6488ef83c0d4",
+    "revision": "2cf3d6a36bd359ea26bfa056cfad3628",
     "url": "/instaSportTest/index.html"
   },
   {
-    "revision": "cb241f8bb59e5b8eaf54",
+    "revision": "975df2fa23065b29181e",
     "url": "/instaSportTest/static/css/main.84facf53.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/instaSportTest/static/js/2.01d4888e.chunk.js"
   },
   {
-    "revision": "cb241f8bb59e5b8eaf54",
-    "url": "/instaSportTest/static/js/main.1351d206.chunk.js"
+    "revision": "975df2fa23065b29181e",
+    "url": "/instaSportTest/static/js/main.9362a54b.chunk.js"
   },
   {
     "revision": "7c0c2ec0bdcd4a16dcce",
