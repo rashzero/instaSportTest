@@ -5,7 +5,6 @@ export const fetchDataClubActions = () => async dispatch => {
     "https://instasport.co/dashboard/api/v1/clubs/"
   );
   const clubs = await responsClubs.json();
-  console.log(clubs);
 
   dispatch({
     type: GET_CLUBS,
