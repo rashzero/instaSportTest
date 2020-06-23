@@ -6,7 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import { fetchDataClubActions } from "../actions/actions";
 import ProgressCentered from "../components/ProgressCentered";
 import ClubCard from "../components/ClubCard";
-import CachedIcon from "@material-ui/icons/Cached";
+import CloseIcon from '@material-ui/icons/Close';
 
 class Main extends PureComponent {
   state = {
@@ -66,6 +66,22 @@ class Main extends PureComponent {
     }
   }
 
+  handleFilterCity = (city) => {
+    if (this.state.clubInCurrentCity === city) {
+      this.setState({ clubInCurrentCity: "" });
+    } else {
+      this.setState({ clubInCurrentCity: city })
+    }
+  }
+
+  handleFilterActivity = (activity) => {
+    if (this.state.clubOfCurrentActivity === activity) {
+      this.setState({ clubOfCurrentActivity: "" });
+    } else {
+      this.setState({ clubOfCurrentActivity: activity })
+    }
+  }
+
   render() {
     const { classes } = this.props;
 
@@ -82,13 +98,13 @@ class Main extends PureComponent {
               display: !this.state.clubInCurrentCity ? "none" : ""
             }}
           >
-            <CachedIcon />
+            <CloseIcon />
           </Button>
           {this.cityArr.map(city => {
             return (
               <Button
                 key={city}
-                onClick={() => this.setState({ clubInCurrentCity: city })}
+                onClick={() => this.handleFilterCity(city)}
                 style={{
                   color: this.state.clubInCurrentCity === city ? "blue" : ""
                 }}
@@ -106,7 +122,7 @@ class Main extends PureComponent {
               display: !this.state.clubOfCurrentActivity ? "none" : ""
             }}
           >
-            <CachedIcon />
+            <CloseIcon />
           </Button>
           {this.activitysArr.map(activity => {
             return (
@@ -114,9 +130,7 @@ class Main extends PureComponent {
                 className={classes.buttonActivity}
                 key={activity}
                 variant="outlined"
-                onClick={() =>
-                  this.setState({ clubOfCurrentActivity: activity })
-                }
+                onClick={() => this.handleFilterActivity(activity)}
                 style={{
                   backgroundColor:
                     this.state.clubOfCurrentActivity === activity
