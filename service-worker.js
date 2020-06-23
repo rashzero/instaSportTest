@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/instaSportTest/precache-manifest.d1492963af28b59cabdbd0924824e78b.js"
+  "/instaSportTest/precache-manifest.bf8f34c5c2187349bf075d2bc18d8104.js"
 );
 
 self.addEventListener('message', (event) => {

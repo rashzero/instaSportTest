@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/instaSportTest/static/css/main.84facf53.chunk.css",
-    "main.js": "/instaSportTest/static/js/main.9362a54b.chunk.js",
-    "main.js.map": "/instaSportTest/static/js/main.9362a54b.chunk.js.map",
+    "main.js": "/instaSportTest/static/js/main.c2e0411f.chunk.js",
+    "main.js.map": "/instaSportTest/static/js/main.c2e0411f.chunk.js.map",
     "runtime~main.js": "/instaSportTest/static/js/runtime~main.a81a6564.js",
     "runtime~main.js.map": "/instaSportTest/static/js/runtime~main.a81a6564.js.map",
-    "static/js/2.01d4888e.chunk.js": "/instaSportTest/static/js/2.01d4888e.chunk.js",
-    "static/js/2.01d4888e.chunk.js.map": "/instaSportTest/static/js/2.01d4888e.chunk.js.map",
+    "static/js/2.c834076c.chunk.js": "/instaSportTest/static/js/2.c834076c.chunk.js",
+    "static/js/2.c834076c.chunk.js.map": "/instaSportTest/static/js/2.c834076c.chunk.js.map",
     "index.html": "/instaSportTest/index.html",
-    "precache-manifest.d1492963af28b59cabdbd0924824e78b.js": "/instaSportTest/precache-manifest.d1492963af28b59cabdbd0924824e78b.js",
+    "precache-manifest.bf8f34c5c2187349bf075d2bc18d8104.js": "/instaSportTest/precache-manifest.bf8f34c5c2187349bf075d2bc18d8104.js",
     "service-worker.js": "/instaSportTest/service-worker.js",
     "static/css/main.84facf53.chunk.css.map": "/instaSportTest/static/css/main.84facf53.chunk.css.map"
   }
