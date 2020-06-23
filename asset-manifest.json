@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/instaSportTest/static/css/main.84facf53.chunk.css",
+    "main.js": "/instaSportTest/static/js/main.1351d206.chunk.js",
+    "main.js.map": "/instaSportTest/static/js/main.1351d206.chunk.js.map",
+    "runtime~main.js": "/instaSportTest/static/js/runtime~main.a81a6564.js",
+    "runtime~main.js.map": "/instaSportTest/static/js/runtime~main.a81a6564.js.map",
+    "static/js/2.01d4888e.chunk.js": "/instaSportTest/static/js/2.01d4888e.chunk.js",
+    "static/js/2.01d4888e.chunk.js.map": "/instaSportTest/static/js/2.01d4888e.chunk.js.map",
+    "index.html": "/instaSportTest/index.html",
+    "precache-manifest.7dcbf6b46770d64a59a376ef1a975818.js": "/instaSportTest/precache-manifest.7dcbf6b46770d64a59a376ef1a975818.js",
+    "service-worker.js": "/instaSportTest/service-worker.js",
+    "static/css/main.84facf53.chunk.css.map": "/instaSportTest/static/css/main.84facf53.chunk.css.map"
+  }
+}
